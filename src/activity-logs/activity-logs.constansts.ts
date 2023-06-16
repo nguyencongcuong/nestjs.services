@@ -1,0 +1,37 @@
+export const FACILITY_MAP = new Map([
+  ["kernel messages", 0],
+  ["user-level messages", 1],
+  ["mail system", 2],
+  ["system daemons", 3],
+  ["security/authorization messages", 4],
+  ["messages generated internally by syslogd", 5],
+  ["line printer subsystem", 6],
+  ["network news subsystem", 7],
+  ["UUCP subsystem", 8],
+  ["clock daemon", 9],
+  ["security/authorization messages", 10],
+  ["FTP daemon", 11],
+  ["NTP daemon", 12],
+  ["log audit", 13],
+  ["log alert", 14],
+  ["clock daemon (note 2)", 15],
+  ["local use 0 (local0)", 16],
+  ["local use 1 (local1)", 17],
+  ["local use 2 (local2)", 18],
+  ["local use 3 (local3)", 19],
+  ["local use 4 (local4)", 20],
+  ["local use 5 (local5)", 21],
+  ["local use 6 (local6)", 22],
+  ["local use 7 (local7)", 23],
+])
+
+export const SEVERITY_MAP = new Map([
+  ["emergency", 0],
+  ["alert", 1],
+  ["critical", 2],
+  ["error", 3],
+  ["warning", 4],
+  ["notice", 5],
+  ["informational", 6],
+  ["debug", 7]
+])
